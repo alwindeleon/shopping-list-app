@@ -1,0 +1,10 @@
+* {
+	border: 1px yellow solid;
+}
+
+#side-bar {
+	width:20%;
+	height: 39em;
+	position: fixed;
+	left: 67.3em;
+}
