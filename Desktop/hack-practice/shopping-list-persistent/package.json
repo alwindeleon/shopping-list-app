@@ -1,0 +1,23 @@
+{
+  "name": "shopping-list-persistent",
+  "version": "0.0.0",
+  "description": "shopping list app with persistence with friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alwindeleon/shopping-list-persistent"
+  },
+  "author": "blu,edrich,rafa,gabriel",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alwindeleon/shopping-list-persistent/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "mongoose": "~4.1.11",
+    "jade": "~1.11.0"
+  }
+}
