@@ -1,0 +1,133 @@
+extend layout
+block content
+  body
+    header
+      .container.centered
+        .intro-text
+          .intro-top Help Others 
+          .intro-bot Volunteer now!
+        .container
+          button.page-scroll.btn.btn-xl#but-mod-1(type="button")  Sign up as a Volunteer!
+          button.page-scroll.btn.btn-xl#but-mod-2(type="button")  Sign up as a Charity!
+          script(src="js/jquery.js")
+          script(src="js/landingpage.js")
+    .hide
+      form#char-hid-form(action="/dashboard/charity" method="GET")
+        input(type="text",name="username")
+        button#submit-log-char(type="submit")
+      form#vol-hid-form(action="/dashboard/volunteer" method="GET")
+        input(type="text",name="username")
+        button#submit-log-vol(type="submit")
+      form#sign-vol-hid-form(action="/dashboard/volunteer" method="POST")
+        input(type="text",name="username")
+        button#sign-submit-vol(type="submit")
+      form#sign-vol-hid-form(action="/dashboard/charity" method="POST")
+        input(type="text",name="username")
+        button#sign-submit-char(type="submit")
+
+    .container
+      #modal-login.modal.hide
+        .modal-dialog
+          .modal-content
+            .modal-header
+              button.close(type="button", data-dismiss="modal") x
+              h3.modal-title.text-center  LOG IN 
+              h5.modal-title.text-center.text-warning#message-log
+            .modal-body
+              form.form-horizontal
+                .control-group
+                  label.loginuser(for="charityname")  Log in: 
+                  .controls
+                    input#username-log.form-control(type="text", placeholder:="")
+                .control-group
+                  label.control-label(for="loginpassword", type="password")  Password: 
+                  .controls
+                    input#password-log.form-control(type="password")
+                .checkbox
+                  label
+                    input(type="checkbox")
+                    | Remember me
+            br
+            .modal-footer
+              button.btn.btn-primary#login-button Log in
+              button.btn.btn-primary#close-3(href="", data-dismiss="modal") Close
+
+    .container
+      #modal-2.modal.hide
+        .modal-dialog
+          .modal-content
+            .modal-header
+              button.close#close(type="button", data-dismiss="modal") x
+              h3.modal-title.text-center  Charity Sign Up 
+              h5.modal-title.text-center.text-warning#message-char
+            .modal-body
+              form.form-horizontal
+                .control-group
+                  label.control-label(for="charityname")  Charity name: 
+                  .controls
+                    input#name-char.form-control(type="text")
+                .control-group
+                  label.control-label(for="charityname")  Username: 
+                  .controls
+                    input#username-char.form-control(type="text")
+                .control-group
+                  label.control-label(for="charitypassword")  Password: 
+                  .controls
+                    input#password-char.form-control(type="password")
+                .control-group
+                  label.control-label(for="email")  Email: 
+                  .controls
+                    input#email-char.form-control(type="text")
+                .control-group
+                  label.control-label(for="resources")  Resources needed: 
+                  .controls
+                    input#resources-char.form-control(type="text")
+                .control-group
+                  label.control-label(for="")  Tags: 
+                  .controls
+                    input#tags-char.form-control(type="text")
+                .control-group
+                  label.control-label(for="")  About us: 
+                  .controls
+                    input#aboutus-char.form-control(type="text")
+                .control-group
+                  label.control-label(for="")  Link to Website
+                  .controls
+                    input#link-char.form-control(type="text")
+            .modal-footer
+              button.btn.btn-primary#char-sign-but(type="button") Submit
+              button.btn.btn-primary#close-2(href="", data-dismiss="modal" type="button") Close
+    .container
+      #modal-1.modal.hide
+        .modal-dialog
+          .modal-content
+            .modal-header
+              button.close(type="button", data-dismiss="modal")  x 
+              h3.modal-title.text-center  Volunteer Sign Up
+              h5.modal-title.text-center.text-warning#message-vol 
+            .modal-body
+              form.form-horizontal
+                control-group
+                  label.control-label(for="username")  Name: 
+                  .controls
+                    input#name-vol.form-control(type="text")
+                .control-group
+                  label.control-label(for="username")  Username: 
+                  .controls
+                    input#username-vol.form-control(type="text")
+                .control-group
+                  label.control-label(for="password")  Password: 
+                  .controls
+                    input#password-vol.form-control(type="password", <="", div="")
+                .control-group
+                  label.control-label(for="email")  Email: 
+                  .controls
+                    input#email-vol.form-control(type="text", <="", div="")
+                .control-group
+                  label.control-label(for="interests")  Interested in volunteering for: 
+                  .controls
+                    input#interests-vol.form-control(type="text")
+            .modal-footer
+              button.btn.btn-primary#vol-sign-but Submit
+              button.btn.btn-primary#close-1(href="", data-dismiss="modal") Close
+

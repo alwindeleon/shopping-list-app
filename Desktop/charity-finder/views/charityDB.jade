@@ -1,0 +1,44 @@
+extends layout
+block content
+  html
+    head
+      title Bootstrap Layouts
+      link(rel="stylesheet", href="userdb.css")
+      // Latest compiled and minified CSS
+      link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+      // Optional theme
+      link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css")
+      script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+      script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+      script(src="app.js")
+    body
+      header#userDBHead
+        .container.center
+          // Table
+          table.table.table-hover.center
+            thead.btn-xl(text-align="center")
+              th Person
+              th Skills/Resources
+              th Contactt
+              th
+            tr.btn-xl
+              td
+                a(href="http://gk1world.com/home") Rafa Cantero
+              td manpower,car
+              td rafaelvcantero@frontend.com
+              td 
+                button.btn.btn-primary volunteer!
+            tr.btn-xl
+              td
+                a(href="http://gk1world.com/home") Gabriel Patron
+              td space,food
+              td patron@gmail.com
+              td 
+                button.btn.btn-primary volunteer!
+            tr.btn-xl
+              td
+                a(href="http://gk1world.com/home") Alwin de Leon
+              td coding,carpentry,manpower
+              td bludeleon@gmail.com
+              td 
+                button.btn.btn-primary volunteer!

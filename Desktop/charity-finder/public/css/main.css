@@ -1,0 +1,210 @@
+* {
+  border-radius: 0 !important;
+}
+
+.searchButton{
+	height: 34px;
+}
+
+#searchBar{
+	background-color: #666;
+	outline-color: #666;
+	color: white;
+	border-color: #666;
+}
+
+
+
+body{
+	margin: 0;
+
+}
+
+navbar navbar-inverse {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    text-align: center;
+    background-image: url("http://photoworldmanila.com/wp-content/uploads/2010/12/Ryan-Salamanca.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    height: 800px;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+header .intro-text
+{
+
+    color: white;
+	font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  -webkit-transform: translate(-50%, -50%); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+   transform: translate(-50%, -50%); 
+}
+
+header .intro-text .intro-top
+{
+    padding-top: 120px;	
+    font-size: 50px;
+}
+
+header .intro-text .intro-bot
+{
+    padding-bottom: 70px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.btn-xl {
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: "Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    opacity: .7;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 10px;
+    padding: 15px;
+}
+.btn-xl:hover {
+	padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: "Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    opacity: .9;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 10px;
+    padding: 15px;
+}
+
+.modal {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/* Content */
+
+#content {
+    float: left;
+    width: 800px;
+    padding: 0 0 0 128px;
+}
+
+#content > h1 {
+    margin: 45px 0 20px 0;
+    padding-left: 33px;
+    background: url(images/img07.gif) no-repeat left center;
+}
+
+.charityDiv {
+    background-color: #999;
+    border: 1px white solid;
+    border-radius: 15px;
+}
+
+#content > .content {
+    padding-left: 32px;
+}
+
+/* Posts */
+
+.post h1.title {
+    margin: 45px 0 0 0;
+    padding-left: 0px;
+    background: url(images/img07.gif) no-repeat left center;
+}
+
+.post h2.title {
+    margin: 40px 0 25px 0;
+    padding-left: 33px;
+    background: url(images/img07.gif) no-repeat left center;
+}
+
+.post .title a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.post .entry {
+    padding-left: 40px;
+}
+
+.post ul, .post ol {
+    margin-left: 3em;
+}
+
+.post ul {
+    list-style-type: square;
+}
+
+.post ol {
+    list-style-type: decimal;
+}
+
+/* Sidebar */
+
+#sidebar {
+    float: right;
+    width: 300px;
+    padding: 0 48px 0 0;
+}
+
+#sidebar a {
+    color: #4A5157;
+}
+
+.box {
+}
+
+.box .title {
+    height: 27px;
+    padding: 6px 0 0 5px;
+    background: #C80000 url(images/img05.gif) no-repeat;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.box .content {
+    padding: 10px;
+    background: url(images/img06.gif) repeat-x;
+}
+
+.box ul {
+    list-style: none;
+    line-height: normal;
+}
+
+.box ul li {
+    margin-bottom: 13px;
+    font-size: 12px;
+}
+
+.box small {
+    font-size: 10px;
+    color: #808C96;
+}
+
+#modal-2 {
+    top: -2em;
+}

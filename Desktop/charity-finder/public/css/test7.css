@@ -1,0 +1,89 @@
+#user-db-body
+{
+	background-color: black !important;
+}
+
+.text
+{
+	color:white;
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+
+}
+
+.dummy {
+    margin-top: 100%;
+}
+.in {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+        text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+    color:white;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.in:hover 
+{
+	background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrli1_kDUrtunm5JLYgBARgwyUTfixs9U8JoOKIYByND6UFFv-Vakg1M_y");
+}
+
+.a{
+    text-align: center;
+    background-image: url("http://www.obphil.com/home/wp-content/uploads/2014/07/Programs-Big-Pictures-Healthcare-702x336.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.b{
+	text-align: center;
+    background-image: url("http://www.ateneo.edu/sites/default/files/GK%20thmb.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+ }
+.c{
+	text-align: center;
+    background-image: url("http://www.livetoexplore.ph/wp-content/uploads/2015/08/image8.jpeg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+}
+.d{
+	text-align: center;
+    background-image: url("http://i.ytimg.com/vi/OGl_ygCcM7Q/maxresdefault.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.btn{
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.volbutton
+{
+	margin-top: 400px;
+}
+
+
